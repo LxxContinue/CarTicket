@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B598D88D2397A20F00037E22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D88C2397A20F00037E22 /* AppDelegate.m */; };
+		B598D8902397A20F00037E22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D88F2397A20F00037E22 /* ViewController.m */; };
+		B598D8932397A20F00037E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B598D8912397A20F00037E22 /* Main.storyboard */; };
+		B598D8952397A21100037E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B598D8942397A21100037E22 /* Assets.xcassets */; };
+		B598D8982397A21100037E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B598D8962397A21100037E22 /* LaunchScreen.storyboard */; };
+		B598D89B2397A21100037E22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D89A2397A21100037E22 /* main.m */; };
+		B598D8A52397A21100037E22 /* carTicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8A42397A21100037E22 /* carTicketTests.m */; };
+		B598D8B02397A21100037E22 /* carTicketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8AF2397A21100037E22 /* carTicketUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B598D8A12397A21100037E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B598D8802397A20F00037E22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B598D8872397A20F00037E22;
+			remoteInfo = carTicket;
+		};
+		B598D8AC2397A21100037E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B598D8802397A20F00037E22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B598D8872397A20F00037E22;
+			remoteInfo = carTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B598D8882397A20F00037E22 /* carTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598D88B2397A20F00037E22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B598D88C2397A20F00037E22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B598D88E2397A20F00037E22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B598D88F2397A20F00037E22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B598D8922397A20F00037E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B598D8942397A21100037E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B598D8972397A21100037E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B598D8992397A21100037E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B598D89A2397A21100037E22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B598D8A02397A21100037E22 /* carTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598D8A42397A21100037E22 /* carTicketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carTicketTests.m; sourceTree = "<group>"; };
+		B598D8A62397A21100037E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B598D8AB2397A21100037E22 /* carTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B598D8AF2397A21100037E22 /* carTicketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carTicketUITests.m; sourceTree = "<group>"; };
+		B598D8B12397A21100037E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B598D8852397A20F00037E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598D89D2397A21100037E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598D8A82397A21100037E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B598D87F2397A20F00037E22 = {
+			isa = PBXGroup;
+			children = (
+				B598D88A2397A20F00037E22 /* carTicket */,
+				B598D8A32397A21100037E22 /* carTicketTests */,
+				B598D8AE2397A21100037E22 /* carTicketUITests */,
+				B598D8892397A20F00037E22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B598D8892397A20F00037E22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B598D8882397A20F00037E22 /* carTicket.app */,
+				B598D8A02397A21100037E22 /* carTicketTests.xctest */,
+				B598D8AB2397A21100037E22 /* carTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B598D88A2397A20F00037E22 /* carTicket */ = {
+			isa = PBXGroup;
+			children = (
+				B598D88B2397A20F00037E22 /* AppDelegate.h */,
+				B598D88C2397A20F00037E22 /* AppDelegate.m */,
+				B598D88E2397A20F00037E22 /* ViewController.h */,
+				B598D88F2397A20F00037E22 /* ViewController.m */,
+				B598D8912397A20F00037E22 /* Main.storyboard */,
+				B598D8942397A21100037E22 /* Assets.xcassets */,
+				B598D8962397A21100037E22 /* LaunchScreen.storyboard */,
+				B598D8992397A21100037E22 /* Info.plist */,
+				B598D89A2397A21100037E22 /* main.m */,
+			);
+			path = carTicket;
+			sourceTree = "<group>";
+		};
+		B598D8A32397A21100037E22 /* carTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				B598D8A42397A21100037E22 /* carTicketTests.m */,
+				B598D8A62397A21100037E22 /* Info.plist */,
+			);
+			path = carTicketTests;
+			sourceTree = "<group>";
+		};
+		B598D8AE2397A21100037E22 /* carTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B598D8AF2397A21100037E22 /* carTicketUITests.m */,
+				B598D8B12397A21100037E22 /* Info.plist */,
+			);
+			path = carTicketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B598D8872397A20F00037E22 /* carTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B598D8B42397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicket" */;
+			buildPhases = (
+				B598D8842397A20F00037E22 /* Sources */,
+				B598D8852397A20F00037E22 /* Frameworks */,
+				B598D8862397A20F00037E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carTicket;
+			productName = carTicket;
+			productReference = B598D8882397A20F00037E22 /* carTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B598D89F2397A21100037E22 /* carTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B598D8B72397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicketTests" */;
+			buildPhases = (
+				B598D89C2397A21100037E22 /* Sources */,
+				B598D89D2397A21100037E22 /* Frameworks */,
+				B598D89E2397A21100037E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B598D8A22397A21100037E22 /* PBXTargetDependency */,
+			);
+			name = carTicketTests;
+			productName = carTicketTests;
+			productReference = B598D8A02397A21100037E22 /* carTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B598D8AA2397A21100037E22 /* carTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B598D8BA2397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicketUITests" */;
+			buildPhases = (
+				B598D8A72397A21100037E22 /* Sources */,
+				B598D8A82397A21100037E22 /* Frameworks */,
+				B598D8A92397A21100037E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B598D8AD2397A21100037E22 /* PBXTargetDependency */,
+			);
+			name = carTicketUITests;
+			productName = carTicketUITests;
+			productReference = B598D8AB2397A21100037E22 /* carTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B598D8802397A20F00037E22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LXX;
+				TargetAttributes = {
+					B598D8872397A20F00037E22 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B598D89F2397A21100037E22 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B598D8872397A20F00037E22;
+					};
+					B598D8AA2397A21100037E22 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B598D8872397A20F00037E22;
+					};
+				};
+			};
+			buildConfigurationList = B598D8832397A20F00037E22 /* Build configuration list for PBXProject "carTicket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B598D87F2397A20F00037E22;
+			productRefGroup = B598D8892397A20F00037E22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B598D8872397A20F00037E22 /* carTicket */,
+				B598D89F2397A21100037E22 /* carTicketTests */,
+				B598D8AA2397A21100037E22 /* carTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B598D8862397A20F00037E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B598D8982397A21100037E22 /* LaunchScreen.storyboard in Resources */,
+				B598D8952397A21100037E22 /* Assets.xcassets in Resources */,
+				B598D8932397A20F00037E22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598D89E2397A21100037E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598D8A92397A21100037E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B598D8842397A20F00037E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B598D8902397A20F00037E22 /* ViewController.m in Sources */,
+				B598D89B2397A21100037E22 /* main.m in Sources */,
+				B598D88D2397A20F00037E22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598D89C2397A21100037E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B598D8A52397A21100037E22 /* carTicketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598D8A72397A21100037E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B598D8B02397A21100037E22 /* carTicketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B598D8A22397A21100037E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B598D8872397A20F00037E22 /* carTicket */;
+			targetProxy = B598D8A12397A21100037E22 /* PBXContainerItemProxy */;
+		};
+		B598D8AD2397A21100037E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B598D8872397A20F00037E22 /* carTicket */;
+			targetProxy = B598D8AC2397A21100037E22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B598D8912397A20F00037E22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B598D8922397A20F00037E22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B598D8962397A21100037E22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B598D8972397A21100037E22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B598D8B22397A21100037E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B598D8B32397A21100037E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B598D8B52397A21100037E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = carTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXX.carTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B598D8B62397A21100037E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = carTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXX.carTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B598D8B82397A21100037E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = carTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXX.carTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carTicket.app/carTicket";
+			};
+			name = Debug;
+		};
+		B598D8B92397A21100037E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = carTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXX.carTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carTicket.app/carTicket";
+			};
+			name = Release;
+		};
+		B598D8BB2397A21100037E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = carTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXX.carTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = carTicket;
+			};
+			name = Debug;
+		};
+		B598D8BC2397A21100037E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = carTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LXX.carTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = carTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B598D8832397A20F00037E22 /* Build configuration list for PBXProject "carTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B598D8B22397A21100037E22 /* Debug */,
+				B598D8B32397A21100037E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B598D8B42397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B598D8B52397A21100037E22 /* Debug */,
+				B598D8B62397A21100037E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B598D8B72397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B598D8B82397A21100037E22 /* Debug */,
+				B598D8B92397A21100037E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B598D8BA2397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B598D8BB2397A21100037E22 /* Debug */,
+				B598D8BC2397A21100037E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B598D8802397A20F00037E22 /* Project object */;
+}
