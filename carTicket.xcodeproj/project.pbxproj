@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		B598D88D2397A20F00037E22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D88C2397A20F00037E22 /* AppDelegate.m */; };
-		B598D8902397A20F00037E22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D88F2397A20F00037E22 /* ViewController.m */; };
-		B598D8932397A20F00037E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B598D8912397A20F00037E22 /* Main.storyboard */; };
 		B598D8952397A21100037E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B598D8942397A21100037E22 /* Assets.xcassets */; };
 		B598D8982397A21100037E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B598D8962397A21100037E22 /* LaunchScreen.storyboard */; };
 		B598D89B2397A21100037E22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D89A2397A21100037E22 /* main.m */; };
 		B598D8A52397A21100037E22 /* carTicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8A42397A21100037E22 /* carTicketTests.m */; };
 		B598D8B02397A21100037E22 /* carTicketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8AF2397A21100037E22 /* carTicketUITests.m */; };
+		B598D8BF2397A31300037E22 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8BE2397A31300037E22 /* HomeViewController.m */; };
+		B598D8C32397B0C500037E22 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8C12397B0C500037E22 /* LoginViewController.m */; };
+		B598D8C42397B0C500037E22 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B598D8C22397B0C500037E22 /* LoginViewController.xib */; };
+		B598D8C72397B40C00037E22 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8C52397B40C00037E22 /* TabBarViewController.m */; };
+		B598D8CB2397B6FF00037E22 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8C92397B6FF00037E22 /* PersonViewController.m */; };
+		B598D8CC2397B6FF00037E22 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B598D8CA2397B6FF00037E22 /* PersonViewController.xib */; };
+		B598D8D02397C84C00037E22 /* TicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8CE2397C84C00037E22 /* TicketTableViewCell.m */; };
+		B598D8D12397C84C00037E22 /* TicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B598D8CF2397C84C00037E22 /* TicketTableViewCell.xib */; };
+		B598D8D42397CDC000037E22 /* ConnectDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8D32397CDC000037E22 /* ConnectDataController.m */; };
+		B598D8D92397EAAE00037E22 /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8D72397EAAE00037E22 /* OrderDetailViewController.m */; };
+		B598D8DA2397EAAE00037E22 /* OrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B598D8D82397EAAE00037E22 /* OrderDetailViewController.xib */; };
+		B598D8DE2397F22400037E22 /* MyorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D8DC2397F22400037E22 /* MyorderViewController.m */; };
+		B598D8DF2397F22400037E22 /* MyorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B598D8DD2397F22400037E22 /* MyorderViewController.xib */; };
+		F3AABA2CDD43794D3806C201 /* libPods-carTicket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E4012E07614BD2312729C6 /* libPods-carTicket.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18993B886B0616BBEBF1BB93 /* Pods-carTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carTicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carTicket/Pods-carTicket.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7215CD30FF2FD640ADEB7C /* Pods-carTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carTicket.release.xcconfig"; path = "Pods/Target Support Files/Pods-carTicket/Pods-carTicket.release.xcconfig"; sourceTree = "<group>"; };
 		B598D8882397A20F00037E22 /* carTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B598D88B2397A20F00037E22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B598D88C2397A20F00037E22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B598D88E2397A20F00037E22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B598D88F2397A20F00037E22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B598D8922397A20F00037E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B598D8942397A21100037E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B598D8972397A21100037E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B598D8992397A21100037E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +62,28 @@
 		B598D8AB2397A21100037E22 /* carTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B598D8AF2397A21100037E22 /* carTicketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carTicketUITests.m; sourceTree = "<group>"; };
 		B598D8B12397A21100037E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B598D8BD2397A31300037E22 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B598D8BE2397A31300037E22 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B598D8C02397B0C500037E22 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B598D8C12397B0C500037E22 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B598D8C22397B0C500037E22 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B598D8C52397B40C00037E22 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		B598D8C62397B40C00037E22 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		B598D8C82397B6FF00037E22 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		B598D8C92397B6FF00037E22 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		B598D8CA2397B6FF00037E22 /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		B598D8CD2397C84C00037E22 /* TicketTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketTableViewCell.h; sourceTree = "<group>"; };
+		B598D8CE2397C84C00037E22 /* TicketTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketTableViewCell.m; sourceTree = "<group>"; };
+		B598D8CF2397C84C00037E22 /* TicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketTableViewCell.xib; sourceTree = "<group>"; };
+		B598D8D22397CDC000037E22 /* ConnectDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectDataController.h; sourceTree = "<group>"; };
+		B598D8D32397CDC000037E22 /* ConnectDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectDataController.m; sourceTree = "<group>"; };
+		B598D8D62397EAAE00037E22 /* OrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		B598D8D72397EAAE00037E22 /* OrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
+		B598D8D82397EAAE00037E22 /* OrderDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailViewController.xib; sourceTree = "<group>"; };
+		B598D8DB2397F22400037E22 /* MyorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyorderViewController.h; sourceTree = "<group>"; };
+		B598D8DC2397F22400037E22 /* MyorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyorderViewController.m; sourceTree = "<group>"; };
+		B598D8DD2397F22400037E22 /* MyorderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyorderViewController.xib; sourceTree = "<group>"; };
+		D2E4012E07614BD2312729C6 /* libPods-carTicket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carTicket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AABA2CDD43794D3806C201 /* libPods-carTicket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1622BA27F1180A4845EFD22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18993B886B0616BBEBF1BB93 /* Pods-carTicket.debug.xcconfig */,
+				1A7215CD30FF2FD640ADEB7C /* Pods-carTicket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B598D87F2397A20F00037E22 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				B598D8A32397A21100037E22 /* carTicketTests */,
 				B598D8AE2397A21100037E22 /* carTicketUITests */,
 				B598D8892397A20F00037E22 /* Products */,
+				A1622BA27F1180A4845EFD22 /* Pods */,
+				EE841A6C8282EBC5FB2F8D6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +148,24 @@
 			children = (
 				B598D88B2397A20F00037E22 /* AppDelegate.h */,
 				B598D88C2397A20F00037E22 /* AppDelegate.m */,
-				B598D88E2397A20F00037E22 /* ViewController.h */,
-				B598D88F2397A20F00037E22 /* ViewController.m */,
-				B598D8912397A20F00037E22 /* Main.storyboard */,
+				B598D8C02397B0C500037E22 /* LoginViewController.h */,
+				B598D8C12397B0C500037E22 /* LoginViewController.m */,
+				B598D8C22397B0C500037E22 /* LoginViewController.xib */,
+				B598D8BD2397A31300037E22 /* HomeViewController.h */,
+				B598D8BE2397A31300037E22 /* HomeViewController.m */,
+				B598D8D62397EAAE00037E22 /* OrderDetailViewController.h */,
+				B598D8D72397EAAE00037E22 /* OrderDetailViewController.m */,
+				B598D8D82397EAAE00037E22 /* OrderDetailViewController.xib */,
+				B598D8CD2397C84C00037E22 /* TicketTableViewCell.h */,
+				B598D8CE2397C84C00037E22 /* TicketTableViewCell.m */,
+				B598D8CF2397C84C00037E22 /* TicketTableViewCell.xib */,
+				B598D8DB2397F22400037E22 /* MyorderViewController.h */,
+				B598D8DC2397F22400037E22 /* MyorderViewController.m */,
+				B598D8DD2397F22400037E22 /* MyorderViewController.xib */,
+				B598D8C82397B6FF00037E22 /* PersonViewController.h */,
+				B598D8C92397B6FF00037E22 /* PersonViewController.m */,
+				B598D8CA2397B6FF00037E22 /* PersonViewController.xib */,
+				B598D8D52397CF4400037E22 /* Tool Group */,
 				B598D8942397A21100037E22 /* Assets.xcassets */,
 				B598D8962397A21100037E22 /* LaunchScreen.storyboard */,
 				B598D8992397A21100037E22 /* Info.plist */,
@@ -132,6 +192,25 @@
 			path = carTicketUITests;
 			sourceTree = "<group>";
 		};
+		B598D8D52397CF4400037E22 /* Tool Group */ = {
+			isa = PBXGroup;
+			children = (
+				B598D8C62397B40C00037E22 /* TabBarViewController.h */,
+				B598D8C52397B40C00037E22 /* TabBarViewController.m */,
+				B598D8D22397CDC000037E22 /* ConnectDataController.h */,
+				B598D8D32397CDC000037E22 /* ConnectDataController.m */,
+			);
+			path = "Tool Group";
+			sourceTree = "<group>";
+		};
+		EE841A6C8282EBC5FB2F8D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4012E07614BD2312729C6 /* libPods-carTicket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B598D8B42397A21100037E22 /* Build configuration list for PBXNativeTarget "carTicket" */;
 			buildPhases = (
+				7657C7636D0BE0143D409E7F /* [CP] Check Pods Manifest.lock */,
 				B598D8842397A20F00037E22 /* Sources */,
 				B598D8852397A20F00037E22 /* Frameworks */,
 				B598D8862397A20F00037E22 /* Resources */,
@@ -235,9 +315,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B598D8DF2397F22400037E22 /* MyorderViewController.xib in Resources */,
 				B598D8982397A21100037E22 /* LaunchScreen.storyboard in Resources */,
 				B598D8952397A21100037E22 /* Assets.xcassets in Resources */,
-				B598D8932397A20F00037E22 /* Main.storyboard in Resources */,
+				B598D8DA2397EAAE00037E22 /* OrderDetailViewController.xib in Resources */,
+				B598D8D12397C84C00037E22 /* TicketTableViewCell.xib in Resources */,
+				B598D8C42397B0C500037E22 /* LoginViewController.xib in Resources */,
+				B598D8CC2397B6FF00037E22 /* PersonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +341,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7657C7636D0BE0143D409E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carTicket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B598D8842397A20F00037E22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B598D8902397A20F00037E22 /* ViewController.m in Sources */,
+				B598D8C32397B0C500037E22 /* LoginViewController.m in Sources */,
 				B598D89B2397A21100037E22 /* main.m in Sources */,
+				B598D8D42397CDC000037E22 /* ConnectDataController.m in Sources */,
+				B598D8D92397EAAE00037E22 /* OrderDetailViewController.m in Sources */,
+				B598D8C72397B40C00037E22 /* TabBarViewController.m in Sources */,
 				B598D88D2397A20F00037E22 /* AppDelegate.m in Sources */,
+				B598D8BF2397A31300037E22 /* HomeViewController.m in Sources */,
+				B598D8DE2397F22400037E22 /* MyorderViewController.m in Sources */,
+				B598D8CB2397B6FF00037E22 /* PersonViewController.m in Sources */,
+				B598D8D02397C84C00037E22 /* TicketTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B598D8912397A20F00037E22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B598D8922397A20F00037E22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B598D8962397A21100037E22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +541,7 @@
 		};
 		B598D8B52397A21100037E22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18993B886B0616BBEBF1BB93 /* Pods-carTicket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +558,7 @@
 		};
 		B598D8B62397A21100037E22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7215CD30FF2FD640ADEB7C /* Pods-carTicket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
