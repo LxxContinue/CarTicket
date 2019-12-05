@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface OrderDetailViewController : UIViewController
 
 @property(nonatomic) NSDictionary *routeDic;
+@property(nonatomic) NSString *order_id;
+
 
 @end
 

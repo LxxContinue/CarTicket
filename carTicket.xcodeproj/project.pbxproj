@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52EF7B623995A2400816FF2 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EF7B523995A2400816FF2 /* SettingViewController.m */; };
 		B598D88D2397A20F00037E22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B598D88C2397A20F00037E22 /* AppDelegate.m */; };
 		B598D8952397A21100037E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B598D8942397A21100037E22 /* Assets.xcassets */; };
 		B598D8982397A21100037E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B598D8962397A21100037E22 /* LaunchScreen.storyboard */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		18993B886B0616BBEBF1BB93 /* Pods-carTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carTicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carTicket/Pods-carTicket.debug.xcconfig"; sourceTree = "<group>"; };
 		1A7215CD30FF2FD640ADEB7C /* Pods-carTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carTicket.release.xcconfig"; path = "Pods/Target Support Files/Pods-carTicket/Pods-carTicket.release.xcconfig"; sourceTree = "<group>"; };
+		B52EF7B423995A2400816FF2 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		B52EF7B523995A2400816FF2 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		B598D8882397A20F00037E22 /* carTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B598D88B2397A20F00037E22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B598D88C2397A20F00037E22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 				B598D8C82397B6FF00037E22 /* PersonViewController.h */,
 				B598D8C92397B6FF00037E22 /* PersonViewController.m */,
 				B598D8CA2397B6FF00037E22 /* PersonViewController.xib */,
+				B52EF7B423995A2400816FF2 /* SettingViewController.h */,
+				B52EF7B523995A2400816FF2 /* SettingViewController.m */,
 				B598D8D52397CF4400037E22 /* Tool Group */,
 				B598D8942397A21100037E22 /* Assets.xcassets */,
 				B598D8962397A21100037E22 /* LaunchScreen.storyboard */,
@@ -380,6 +385,7 @@
 				B598D8BF2397A31300037E22 /* HomeViewController.m in Sources */,
 				B598D8DE2397F22400037E22 /* MyorderViewController.m in Sources */,
 				B598D8CB2397B6FF00037E22 /* PersonViewController.m in Sources */,
+				B52EF7B623995A2400816FF2 /* SettingViewController.m in Sources */,
 				B598D8D02397C84C00037E22 /* TicketTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,7 +551,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6P56TXLQB;
 				INFOPLIST_FILE = carTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,7 +570,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6P56TXLQB;
 				INFOPLIST_FILE = carTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

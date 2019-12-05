@@ -41,9 +41,11 @@
 }
 
 -(void)connectBase{
-    //self.dataSource = [self connectDataBase:@"ios"];
+    
     self.routeData = [self selectDataBase:@"route"];
+    
 }
+
 -(void)creatTable{
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0,0, SCREEN_WIDTH, SCREEN_HEIGHT -  self.navigationController.navigationBar.frame.size.height- self.tabBarController.tabBar.bounds.size.height-kStatusBarHeight) style:UITableViewStyleGrouped];
     self.tableView.delegate = self;
@@ -84,22 +86,24 @@
     
     cell.priceLabel.text = [NSString stringWithFormat:@"%@元",[dic objectForKey:@"price"]];
     
-    cell.placeLabel.text = [NSString stringWithFormat:@"剩余%@票",[dic objectForKey:@"place"]];
+    cell.placeLabel.text = [NSString stringWithFormat:@"剩余%@票",[dic objectForKey:@"seat"]];
     
-    cell.driverLabel.text = [NSString stringWithFormat:@"司机%@",[dic objectForKey:@"driverID"]];
+    cell.driverLabel.text = [NSString stringWithFormat:@"司机%@",[dic objectForKey:@"driver_id"]];
     
     return  cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    self.navigationController.navigationBar.topItem.title = @"";
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
     NSDictionary *dic = self.routeData[indexPath.row];
     
     OrderDetailViewController *ovc = [[OrderDetailViewController alloc]init];
     ovc.routeDic = dic;
     NSLog(@"route: %@",dic);
-    
+    ovc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:ovc animated:YES];
     
 }

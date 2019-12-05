@@ -124,6 +124,15 @@
                             <integer key="value" value="10"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="logoutAction:" destination="-1" eventType="touchUpInside" id="RhR-T8-pvc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyV-zF-1EF">
+                    <rect key="frame" x="40" y="237" width="70" height="63"/>
+                    <connections>
+                        <action selector="showUserInfo:" destination="-1" eventType="touchUpInside" id="Wm6-YH-v9c"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -137,6 +146,7 @@
                 <constraint firstItem="Iok-C4-7cV" firstAttribute="top" secondItem="pJV-KD-6R0" secondAttribute="bottom" constant="15" id="EEI-b1-ocK"/>
                 <constraint firstItem="pJV-KD-6R0" firstAttribute="leading" secondItem="Lr8-7v-XVr" secondAttribute="trailing" constant="10" id="FCD-0U-Ehk"/>
                 <constraint firstItem="sFB-Rd-EmV" firstAttribute="top" secondItem="GU7-or-2LB" secondAttribute="bottom" constant="10" id="IYm-hI-ZF6"/>
+                <constraint firstItem="VyV-zF-1EF" firstAttribute="leading" secondItem="ovg-ba-Lyu" secondAttribute="leading" id="KC7-JY-UIi"/>
                 <constraint firstItem="waC-Wy-xlV" firstAttribute="centerY" secondItem="SnJ-BU-hkP" secondAttribute="centerY" id="KxX-JR-VaZ"/>
                 <constraint firstItem="tXe-6U-gtl" firstAttribute="centerY" secondItem="SnJ-BU-hkP" secondAttribute="centerY" id="Lfq-7J-JOd"/>
                 <constraint firstItem="sFB-Rd-EmV" firstAttribute="centerX" secondItem="GU7-or-2LB" secondAttribute="centerX" id="O4r-cY-2lt"/>
@@ -144,6 +154,7 @@
                 <constraint firstItem="sfk-53-KpW" firstAttribute="centerX" secondItem="waC-Wy-xlV" secondAttribute="centerX" id="RbE-3J-BGe"/>
                 <constraint firstItem="T49-VR-hTU" firstAttribute="top" secondItem="SnJ-BU-hkP" secondAttribute="bottom" constant="10" id="T8d-Xo-A3F"/>
                 <constraint firstItem="T49-VR-hTU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TAI-r6-d5Z"/>
+                <constraint firstItem="VyV-zF-1EF" firstAttribute="top" secondItem="tXe-6U-gtl" secondAttribute="top" id="VgA-Qd-kmH"/>
                 <constraint firstItem="SnJ-BU-hkP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XOt-QK-nTz"/>
                 <constraint firstItem="cRN-Gn-ol4" firstAttribute="leading" secondItem="STR-sz-AXF" secondAttribute="leading" id="Y4V-cu-zO9"/>
                 <constraint firstItem="Lr8-7v-XVr" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="30" id="Z9f-so-WC2"/>
@@ -153,12 +164,14 @@
                 <constraint firstItem="STR-sz-AXF" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="itW-yu-CCs"/>
                 <constraint firstItem="STR-sz-AXF" firstAttribute="top" secondItem="Lr8-7v-XVr" secondAttribute="bottom" constant="50" id="j1U-oA-b6E"/>
                 <constraint firstItem="pJV-KD-6R0" firstAttribute="top" secondItem="Lr8-7v-XVr" secondAttribute="top" constant="10" id="kNf-qt-9fE"/>
+                <constraint firstItem="VyV-zF-1EF" firstAttribute="trailing" secondItem="ovg-ba-Lyu" secondAttribute="trailing" id="kd3-hW-ygf"/>
                 <constraint firstItem="GU7-or-2LB" firstAttribute="top" secondItem="cRN-Gn-ol4" secondAttribute="bottom" constant="30" id="saj-LT-Hrx"/>
                 <constraint firstItem="ovg-ba-Lyu" firstAttribute="top" secondItem="tXe-6U-gtl" secondAttribute="bottom" constant="10" id="wlm-0c-xPV"/>
+                <constraint firstItem="VyV-zF-1EF" firstAttribute="bottom" secondItem="ovg-ba-Lyu" secondAttribute="bottom" id="yIA-MI-v6G"/>
                 <constraint firstItem="sfk-53-KpW" firstAttribute="top" secondItem="waC-Wy-xlV" secondAttribute="bottom" constant="10" id="yeE-C5-t1e"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="137" y="158"/>
+            <point key="canvasLocation" x="136.80000000000001" y="157.87106446776613"/>
         </view>
     </objects>
     <resources>

@@ -46,19 +46,19 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T73-mC-RlW">
-                        <rect key="frame" x="65" y="17" width="334" height="21"/>
+                        <rect key="frame" x="55" y="17" width="344" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdT-2V-iCf">
-                        <rect key="frame" x="65" y="60.5" width="334" height="21"/>
+                        <rect key="frame" x="55" y="60.5" width="344" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMW-dL-ipL">
-                        <rect key="frame" x="65" y="97.5" width="335" height="21"/>
+                        <rect key="frame" x="55" y="97.5" width="345" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -99,7 +99,7 @@
                     <constraint firstItem="Cwr-qz-GNb" firstAttribute="centerY" secondItem="bIC-BN-tNF" secondAttribute="centerY" id="60a-1c-gGN"/>
                     <constraint firstItem="T73-mC-RlW" firstAttribute="centerY" secondItem="9b2-Ay-QCE" secondAttribute="centerY" id="77i-LC-LHY"/>
                     <constraint firstItem="Obt-Ju-N2J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="7Ka-jk-4R5"/>
-                    <constraint firstItem="T73-mC-RlW" firstAttribute="leading" secondItem="9b2-Ay-QCE" secondAttribute="trailing" constant="25" id="9up-N0-07Y"/>
+                    <constraint firstItem="T73-mC-RlW" firstAttribute="leading" secondItem="9b2-Ay-QCE" secondAttribute="trailing" constant="15" id="9up-N0-07Y"/>
                     <constraint firstAttribute="trailingMargin" secondItem="SMW-dL-ipL" secondAttribute="trailing" constant="49" id="BcG-wJ-FHP"/>
                     <constraint firstAttribute="trailingMargin" secondItem="T73-mC-RlW" secondAttribute="trailing" constant="50" id="DLg-Wj-5JX"/>
                     <constraint firstItem="IdT-2V-iCf" firstAttribute="centerY" secondItem="Egl-GJ-G64" secondAttribute="centerY" id="Fis-R2-2Bh"/>

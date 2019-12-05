@@ -7,6 +7,9 @@
 //
 
 #import "PersonViewController.h"
+#import "LoginViewController.h"
+#import "AppDelegate.h"
+#import "SettingViewController.h"
 
 @interface PersonViewController ()
 
@@ -26,6 +29,37 @@
     
     
 }
+- (IBAction)showUserInfo:(UIButton *)sender {
+    NSData *deData = [[NSUserDefaults standardUserDefaults] objectForKey:@"userInfo"];
+    NSMutableDictionary * userInfo = [NSKeyedUnarchiver unarchiveObjectWithData:deData];
+    
+    SettingViewController *svc = [[SettingViewController alloc]init];
+    svc.userInfo = userInfo;
+    svc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:svc animated:YES];
+    
+}
+- (IBAction)logoutAction:(UIButton *)sender {
+    NSString *msg = [NSString stringWithFormat:@"\n确定要退出购票吗？"];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"温馨提示" message:msg preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSString *appDomainStr = [[NSBundle mainBundle] bundleIdentifier];
+        [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomainStr];
+        LoginViewController *lvc = [[LoginViewController alloc] init];
+        //UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:lvc];
+        
+        AppDelegate *delegete = (AppDelegate *)[[UIApplication  sharedApplication] delegate];
+        //delegete.window.rootViewController = nav;
+        delegete.window.rootViewController = lvc;
+        
+    }];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDestructive handler:nil];
+    [alertController addAction:cancelAction];
+    [alertController addAction:defaultAction];
+    [self.navigationController presentViewController:alertController animated:YES completion:nil];
+    
+}
+
 
 
 @end
